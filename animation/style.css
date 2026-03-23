@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(70, 68, 68);
+}
+
+
+
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: lavender;
+    border-radius: 10px;
+    position: absolute;
+
+    /* animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    
+
+
+}
+
+@keyframes anime {
+    from{
+        left:0;
+        top: 0%;
+        rotate: 20deg;
+    }
+    to{
+        left: 70%;
+        top: 50%;
+        rotate: 120deg;
+    }
+}
+
+@keyframes move {
+    0%{
+        left: 0;
+        top: 0;
+        background-color: aqua;
+    }
+    25%{
+        left: 70%;
+        top: 0;
+        background-color: rgb(25, 0, 255);
+    }
+    50%{
+        left: 70%;
+        top: 50%;
+        background-color: rgb(0, 255, 85);
+    }
+    75%{
+        left: 0;
+        top: 50%;
+        background-color: rgb(255, 0, 98);
+    }
+    100%{
+        left: 0;
+        top: 0;
+        background-color: aqua;
+    }
+    
+}
