@@ -36,11 +36,15 @@ h1{
 }
 
 h1::after{
-    content: ' kya hal';
+    content: 'kya hal';
+    background-color: aqua;
+    border-radius: 10px;
 }
 
 h1::before{
-    content: 'hey ';
+    content: 'hey';
+    background-color: aquamarine;
+    border-radius: 10px;
 }
 
 
