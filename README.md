@@ -46,6 +46,15 @@ Here's a breakdown of the examples included in this repository:
 -   **Description:** A simple implementation of a carousel/slider using the Swiper.js library. It includes navigation, pagination, and autoplay.
 -   **How to use:** Open the `Swiper/index.html` file in your web browser.
 
+### 7. Framer Motion (with React)
+
+-   **Folder:** `Framer_js/`
+-   **Description:** A simple React project that uses the Framer Motion library to create animations.
+-   **How to use:** 
+    1.  Navigate to the `Framer_js` directory.
+    2.  Install the dependencies using `npm install`.
+    3.  Run the development server with `npm run dev`.
+
 ## How to Get Started
 
 1.  **Clone the repository:**
