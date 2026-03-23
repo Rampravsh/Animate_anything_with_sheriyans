@@ -15,7 +15,7 @@ body{
 }
 
 
-
+/* 
 #box{
     height: 300px;
     width: 300px;
@@ -23,14 +23,26 @@ body{
     border-radius: 10px;
     position: absolute;
 
-    /* animation-name: move;
+    animation-name: move;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-    animation-direction: alternate; */
-    
+    animation-direction: alternate;
+} */
 
 
+h1{
+    font-size: 50px;
+    font-weight: 600;
 }
+
+h1::after{
+    content: ' kya hal';
+}
+
+h1::before{
+    content: 'hey ';
+}
+
 
 @keyframes anime {
     from{
